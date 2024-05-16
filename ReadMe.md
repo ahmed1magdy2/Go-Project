@@ -47,13 +47,13 @@ go get github.com/go-sql-driver/mysql
 ```
 3. Build and run the server:
 ```
-go build -o server server.go
-./master
+go build -o server.exe server.go
+server.exe
 ```
 4. In a new terminal, build and run the CLI:
 ```
-go build -o client client.go
-./client
+go build -o client.exe client.go
+client.exe
 ```
 ## Usage
 ### server
