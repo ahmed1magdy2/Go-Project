@@ -50,7 +50,7 @@ go get github.com/go-sql-driver/mysql
 go build -o server.exe server.go
 server.exe
 ```
-4. In a new terminal, build and run the CLI:
+4. In a new terminal, build and run the Client:
 ```
 go build -o client.exe client.go
 client.exe
